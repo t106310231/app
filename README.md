@@ -1,4 +1,4 @@
-# 光譜結合TF模型Android APP設計
+# 顏色辨識__光譜結合TF模型Android APP設計
 1.設計環境:Android Studio  
 2.程式功能(java):specSDC2/app/src/main/java/com/example/specsdc  
 3.介面設計(xml):specSDC2/app/src/main/res/layout  
