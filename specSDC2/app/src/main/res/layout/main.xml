@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btn_select"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="C"
+            android:background="@drawable/blues"
+            android:textColor="#0000"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chartSpectrum"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="top"
+            android:padding="5dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewLblFrameAvgNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="FrameAvg" />
+
+        <Spinner
+            android:id="@+id/spinnerFrameAvgNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLight"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/light"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/buttonSpectrum"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/start"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/detect"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/tf" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity=""
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/up" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/viewColor"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=">>"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

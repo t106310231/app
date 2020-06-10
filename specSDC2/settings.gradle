@@ -1,0 +1,2 @@
+rootProject.name='specSDC'
+include ':app'
