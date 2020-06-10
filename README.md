@@ -6,3 +6,4 @@
   (1)初始化TensorFlow模型:TensorFlowImageClassifier.java  
   (2)列表顯示藍芽裝置及連線選擇:DeviceListActivity.java  
   (3)光譜感測器BLE連線:SpectrumTransferService.java  
+  (4)主程式、光譜圖、預測結果顯示:MainA
