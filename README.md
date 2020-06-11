@@ -7,4 +7,4 @@
   (2)列表顯示藍芽裝置及連線選擇:DeviceListActivity.java  
   (3)光譜感測器BLE連線:SpectrumTransferService.java  
   (4)主程式、光譜圖、預測結果顯示:MainActivity.java  
-![](https://drive.google.com/open?id=1Celb6REIwTFreYWUIGyMLycLBiFwbPXN)
+![](https://github.com/t106310231/app/blob/master/Screenshot_20200611-181353.jpg)
